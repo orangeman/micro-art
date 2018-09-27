@@ -36,4 +36,4 @@ composite = compose(cropped(streifen))
 
 composite.save("./composite.tif")
 os.system("xviewer composite.tif")
-# os.system("display foo.tif")
+# os.system("display composite.tif")
